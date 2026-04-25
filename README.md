@@ -4,7 +4,7 @@ Dashboard interaktif untuk menganalisis data peminjaman sepeda Capital Bikeshare
 
 ## Prasyarat
 
-- Python 3.8 atau lebih baru
+- Python 3.12 atau lebih baru
 - Git (opsional, untuk clone repository)
 
 ## 🚀 Cara Menjalankan Dashboard
@@ -18,11 +18,23 @@ cd streamlit-bikesharing
 
 ### 2. Buat Virtual Environment
 
+Windows (Command Prompt)
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
+Windows (PowerShell)
+```bash
+python -m venv venv
+venv\Scripts\Activate.ps1
+```
+
+Mac / Linux
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
 ### 3. Install Dependencies
 
