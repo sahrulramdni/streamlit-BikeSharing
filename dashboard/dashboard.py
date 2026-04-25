@@ -65,8 +65,6 @@ print(f"   - hourly_data.csv: {len(df_hourly):,} baris")
 print(f"   - daily_data.csv: {len(df_daily)} baris")
 print("\n📁 Folder 'dashboard' telah dibuat dengan file data CSV")
 
-pip install streamlit pandas numpy matplotlib seaborn plotly
-
 # ============================================
 # DASHBOARD ANALISIS BIKE SHARING
 # ============================================
